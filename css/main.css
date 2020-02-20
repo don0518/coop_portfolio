@@ -505,3 +505,8 @@ a img:hover{
   text-align: center;
   max-width:100%;
 }
+
+.index_video{
+  width:40%;
+  margin-left: 10rem;
+}
