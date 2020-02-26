@@ -279,6 +279,25 @@ code {
   background-color: black;
   color: white;
 }
+
+.my_email{
+  color:white;
+  margin-top:3em;
+}
+.in_text_link2 {
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+}
+.in_text_link2:hover{
+  color: rgb(255, 223, 136);
+  transition:0.2s;
+  text-decoration: none;
+}
+.in_text_link2:active{
+  background-color: black;
+  color: white;
+}
 /* style for navigation */
 #nav_link{
   background-color: white;
@@ -513,4 +532,28 @@ a img:hover{
 
 .home_page_section{
   margin-top:10rem;
+}
+
+
+/* .videoWrapper {
+  height:800px;
+  width:1400px;
+  position:relative;
+  overflow:hidden;
+}  */
+.videoWrapper {
+  position:relative;
+  padding-bottom:56.25%;
+  margin-top:5em;
+  height:0;
+  overflow:hidden;
+}
+
+.videoWrapper iframe, .videoWrapper object, .videoWrapper embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+
 }
